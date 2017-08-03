@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.nikolay.exchangerates.MainActivity">
+
+    <TextView
+        android:id="@+id/textView_eur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EUR!"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_rur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RUR!"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_usd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USD!"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_btc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BTC!"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button_exchange"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_blue_bright"
+        android:text="Exchange rate history"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="378dp" />
+
+    <Button
+        android:id="@+id/button_chart"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="36dp"
+        android:background="@android:color/holo_blue_dark"
+        android:text="Chart for 30 days"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="316dp" />
+
+</LinearLayout>
