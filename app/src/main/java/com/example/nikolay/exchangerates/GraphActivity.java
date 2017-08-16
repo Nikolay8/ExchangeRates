@@ -9,10 +9,10 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.example.nikolay.exchangerates.Helper.DBHelper;
+import com.example.nikolay.exchangerates.Helpers.DBHelper;
 import com.example.nikolay.exchangerates.HistoryRate.ControllerHistory;
 import com.example.nikolay.exchangerates.HistoryRate.ExchangeApiHistory;
-import com.example.nikolay.exchangerates.HistoryRate.JsonModelHistory;
+import com.example.nikolay.exchangerates.Models.JsonModelHistory;
 import com.jjoe64.graphview.GraphView;
 import com.jjoe64.graphview.LegendRenderer;
 import com.jjoe64.graphview.series.DataPoint;

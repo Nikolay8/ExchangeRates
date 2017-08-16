@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import com.example.nikolay.exchangerates.HistoryRate.ControllerHistory;
 import com.example.nikolay.exchangerates.HistoryRate.ExchangeApiHistory;
-import com.example.nikolay.exchangerates.HistoryRate.JsonModelHistory;
+import com.example.nikolay.exchangerates.Models.JsonModelHistory;
 
 import retrofit2.Call;
 import retrofit2.Callback;

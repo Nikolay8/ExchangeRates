@@ -1,5 +1,7 @@
 package com.example.nikolay.exchangerates.Current_Rate;
 
+import com.example.nikolay.exchangerates.Models.JsonModel;
+
 import java.util.List;
 
 import retrofit2.Call;
