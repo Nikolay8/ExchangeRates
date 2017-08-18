@@ -11,21 +11,21 @@
         android:id="@+id/textView_eur"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EUR!"
+        android:text="@string/textView_eur"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView_rur"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="RUR!"
+        android:text="@string/textView_rur"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView_usd"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="USD!"
+        android:text="@string/textView_usd"
         android:textSize="20sp" />
 
     <TextView
@@ -44,7 +44,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:background="@android:color/holo_blue_bright"
-        android:text="Exchange rate history"
+        android:text="@string/button_exchange"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="378dp" />
 
@@ -57,7 +57,7 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="36dp"
         android:background="@android:color/holo_blue_dark"
-        android:text="Chart for 30 days"
+        android:text="@string/button_chart"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="316dp" />
 

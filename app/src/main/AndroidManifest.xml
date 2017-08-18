@@ -18,8 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ExchangeHistory" />
-        <activity android:name=".Graph" />
+
+        <activity android:name=".ExchangeHistoryActivity" />
+        <activity android:name=".GraphActivity" />
+
     </application>
 
 </manifest>

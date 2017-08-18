@@ -1,5 +1,6 @@
-package com.example.nikolay.exchangerates.HistoryRate;
+package com.example.nikolay.exchangerates.Models;
 
+import com.example.nikolay.exchangerates.Models.ExchangeRate;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 
@@ -24,7 +25,7 @@ public class JsonModelHistory {
     private String baseCurrencyLit;
     @SerializedName("exchangeRate")
     @Expose
-    private List<ExchangeRate> exchangeRate = null;
+    private List<ExchangeRate> exchangeRates = null;
 
     public String getDate() {
         return date;
@@ -58,12 +59,12 @@ public class JsonModelHistory {
         this.baseCurrencyLit = baseCurrencyLit;
     }
 
-    public List<ExchangeRate> getExchangeRate() {
-        return exchangeRate;
+    public List<ExchangeRate> getExchangeRates() {
+        return exchangeRates;
     }
 
-    public void setExchangeRate(List<ExchangeRate> exchangeRate) {
-        this.exchangeRate = exchangeRate;
+    public void setExchangeRates(List<ExchangeRate> exchangeRates) {
+        this.exchangeRates = exchangeRates;
     }
 
 

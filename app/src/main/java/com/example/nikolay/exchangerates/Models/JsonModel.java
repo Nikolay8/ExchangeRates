@@ -1,4 +1,4 @@
-package com.example.nikolay.exchangerates.Current_Rate;
+package com.example.nikolay.exchangerates.Models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

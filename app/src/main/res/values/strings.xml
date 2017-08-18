@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Exchange Rates</string>
+    <string name="textView_eur">EUR!</string>
+    <string name="textView_rur">RUR!</string>
+    <string name="textView_usd">USD!</string>
+    <string name="textView_btc">BTC!</string>
+    <string name="button_exchange">Exchange rate history</string>
+    <string name="button_chart">Chart for 30 days</string>
+    <string name="textView_info">Connecting to data.</string>
+    <string name="textView_eur_his">Connecting to data..</string>
+    <string name="textView_rur_his">Connecting to data...</string>
+    <string name="textView_usd_his">Connecting to data....</string>
 </resources>

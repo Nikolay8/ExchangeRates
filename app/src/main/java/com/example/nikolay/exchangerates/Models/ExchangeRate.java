@@ -1,4 +1,4 @@
-package com.example.nikolay.exchangerates.HistoryRate;
+package com.example.nikolay.exchangerates.Models;
 
 /**
  * Created by Nikolay on 21.07.2017.
@@ -16,16 +16,16 @@ public class ExchangeRate {
     private String currency;
     @SerializedName("saleRateNB")
     @Expose
-    private Float saleRateNB;
+    private Double saleRateNB;
     @SerializedName("purchaseRateNB")
     @Expose
-    private Float purchaseRateNB;
+    private Double purchaseRateNB;
     @SerializedName("saleRate")
     @Expose
-    private Float saleRate;
+    private Double saleRate;
     @SerializedName("purchaseRate")
     @Expose
-    private Float purchaseRate;
+    private Double purchaseRate;
 
     public String getBaseCurrency() {
         return baseCurrency;
@@ -43,35 +43,35 @@ public class ExchangeRate {
         this.currency = currency;
     }
 
-    public Float getSaleRateNB() {
+    public Double getSaleRateNB() {
         return saleRateNB;
     }
 
-    public void setSaleRateNB(Float saleRateNB) {
+    public void setSaleRateNB(Double saleRateNB) {
         this.saleRateNB = saleRateNB;
     }
 
-    public Float getPurchaseRateNB() {
+    public Double getPurchaseRateNB() {
         return purchaseRateNB;
     }
 
-    public void setPurchaseRateNB(Float purchaseRateNB) {
+    public void setPurchaseRateNB(Double purchaseRateNB) {
         this.purchaseRateNB = purchaseRateNB;
     }
 
-    public Float getSaleRate() {
+    public Double getSaleRate() {
         return saleRate;
     }
 
-    public void setSaleRate(Float saleRate) {
+    public void setSaleRate(Double saleRate) {
         this.saleRate = saleRate;
     }
 
-    public Float getPurchaseRate() {
+    public Double getPurchaseRate() {
         return purchaseRate;
     }
 
-    public void setPurchaseRate(Float purchaseRate) {
+    public void setPurchaseRate(Double purchaseRate) {
         this.purchaseRate = purchaseRate;
     }
 }

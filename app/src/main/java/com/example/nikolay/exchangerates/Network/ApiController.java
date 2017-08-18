@@ -1,4 +1,4 @@
-package com.example.nikolay.exchangerates.Current_Rate;
+package com.example.nikolay.exchangerates.Network;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
  * Created by Nikolay on 18.07.2017.
  */
 
-public class Controller {
+public class ApiController {
     static final String BASE_URL="https://api.privatbank.ua/p24api/";
 
     public static ExchangeApi getApi() {
@@ -23,7 +23,6 @@ public class Controller {
                 .addConverterFactory(GsonConverterFactory.create(gson))
                 .build();
 
-        ExchangeApi exchangeApi = retrofit.create(ExchangeApi.class);
-        return exchangeApi;
+        return retrofit.create(ExchangeApi.class);
     }
 }

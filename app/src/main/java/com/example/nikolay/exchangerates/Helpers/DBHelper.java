@@ -1,4 +1,4 @@
-package com.example.nikolay.exchangerates.Helper;
+package com.example.nikolay.exchangerates.Helpers;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
@@ -35,7 +35,7 @@ public class DBHelper extends SQLiteOpenHelper {
 
         db.execSQL("create table graph_data ("
                 + "id integer primary key autoincrement,"
-                + "data text,"
+                + "date text,"
                 + "eur_buy real,"
                 + "usd_buy real" + ");");
     }

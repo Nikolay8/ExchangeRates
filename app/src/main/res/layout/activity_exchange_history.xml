@@ -10,7 +10,7 @@
         android:id="@+id/textView_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Connecting to data."
+        android:text="@string/textView_info"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -18,21 +18,21 @@
         android:id="@+id/textView_eur_his"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Connecting to data.."
+        android:text="@string/textView_eur_his"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView_rur_his"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Connecting to data..."
+        android:text="@string/textView_rur_his"
         android:textSize="20sp" />
 
     <TextView
         android:id="@+id/textView_usd_his"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Connecting to data...."
+        android:text="@string/textView_usd_his"
         android:textSize="20sp" />
 
 </LinearLayout>
